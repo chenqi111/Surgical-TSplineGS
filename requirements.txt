@@ -1,0 +1,11 @@
+git+https://github.com/nerfstudio-project/gsplat.git@v1.4.0
+plyfile
+ffmpeg
+numpy==1.21.6
+scipy==1.7.3
+matplotlib==3.5.3
+mmengine==0.10.6
+imageio==2.19.3
+imageio-ffmpeg==0.4.7
+kornia==0.6.9
+tqdm

@@ -1,0 +1,14 @@
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Balloon1/images_2 --mask_dir data/nvidia_rodynrf/Balloon1/motion_masks --out_dir data/nvidia_rodynrf/Balloon1/bootscotracker_dynamic --grid_size 256
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Balloon1/images_2 --mask_dir data/nvidia_rodynrf/Balloon1/motion_masks --out_dir data/nvidia_rodynrf/Balloon1/bootscotracker_static --is_static --grid_size 50
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Balloon2/images_2 --mask_dir data/nvidia_rodynrf/Balloon2/motion_masks --out_dir data/nvidia_rodynrf/Balloon2/bootscotracker_dynamic --grid_size 256
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Balloon2/images_2 --mask_dir data/nvidia_rodynrf/Balloon2/motion_masks --out_dir data/nvidia_rodynrf/Balloon2/bootscotracker_static --is_static --grid_size 50
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Jumping/images_2 --mask_dir data/nvidia_rodynrf/Jumping/motion_masks --out_dir data/nvidia_rodynrf/Jumping/bootscotracker_dynamic --grid_size 256
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Jumping/images_2 --mask_dir data/nvidia_rodynrf/Jumping/motion_masks --out_dir data/nvidia_rodynrf/Jumping/bootscotracker_static --is_static --grid_size 50
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Playground/images_2 --mask_dir data/nvidia_rodynrf/Playground/motion_masks --out_dir data/nvidia_rodynrf/Playground/bootscotracker_dynamic --grid_size 256
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Playground/images_2 --mask_dir data/nvidia_rodynrf/Playground/motion_masks --out_dir data/nvidia_rodynrf/Playground/bootscotracker_static --is_static --grid_size 50
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Truck/images_2 --mask_dir data/nvidia_rodynrf/Truck/motion_masks --out_dir data/nvidia_rodynrf/Truck/bootscotracker_dynamic --grid_size 256
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Truck/images_2 --mask_dir data/nvidia_rodynrf/Truck/motion_masks --out_dir data/nvidia_rodynrf/Truck/bootscotracker_static --is_static --grid_size 50
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Skating/images_2 --mask_dir data/nvidia_rodynrf/Skating/motion_masks --out_dir data/nvidia_rodynrf/Skating/bootscotracker_dynamic --grid_size 256
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Skating/images_2 --mask_dir data/nvidia_rodynrf/Skating/motion_masks --out_dir data/nvidia_rodynrf/Skating/bootscotracker_static --is_static --grid_size 50
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Umbrella/images_2 --mask_dir data/nvidia_rodynrf/Umbrella/motion_masks --out_dir data/nvidia_rodynrf/Umbrella/bootscotracker_dynamic --grid_size 256
+python gen_tracks.py --image_dir data/nvidia_rodynrf/Umbrella/images_2 --mask_dir data/nvidia_rodynrf/Umbrella/motion_masks --out_dir data/nvidia_rodynrf/Umbrella/bootscotracker_static --is_static --grid_size 50
